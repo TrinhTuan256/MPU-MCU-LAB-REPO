@@ -96,8 +96,10 @@ int main(void)
     /* USER CODE END WHILE */
 	  HAL_GPIO_TogglePin(RED_LED_GPIO_Port, RED_LED_Pin);
 	  HAL_Delay(2000);
+	  HAL_GPIO_TogglePin(RED_LED_GPIO_Port, RED_LED_Pin);
 	  HAL_GPIO_TogglePin(YELLOW_LED_GPIO_Port, YELLOW_LED_Pin);
 	  HAL_Delay(2000);
+	  HAL_GPIO_TogglePin(YELLOW_LED_GPIO_Port, YELLOW_LED_Pin);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
